@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNT Health Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #008000; /* Green background */
+            color: white;
+        }
+        header {
+            background-color: #006400; /* Darker green for header */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #004d00; /* Even darker green for nav */
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .doctor-details {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #004d00; /* Darker green for doctor details */
+        }
+        .doctor-details div {
+            width: 30%;
+            text-align: center;
+        }
+        .doctor-details img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .doctor-details h2 {
+            margin-top: 10px;
+        }
+        .doctor-details p {
+            text-align: justify;
+        }
+        footer {
+            background-color: #006400; /* Darker green for footer */
+            padding: 20px;
+            text-align: center;
+        }
+        .form-container {
+            background-color: #004d00; /* Darker green for form container */
+            padding: 20px;
+            margin: 20px;
+        }
+        .form-container h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-container input, .form-container select {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        .form-container button {
+            padding: 10px;
+            background-color: #008000; /* Green button */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UNT Health Center</h1>
+    </header>
+    <nav>
+        <a href="#">Doctors</a>
+        <a href="#">Department</a>
+        <a href="#">Contact</a>
+        <a href="#">Sign In</a>
+    </nav>
+    <div class="doctor-details">
+        <div>
+        
+            <h2>Dr. Joseph Livingston</h2>
+            <p>Cardiologist</p>
+        </div>
+        <div>
+            
+            <h2>Dr. Jane Smith</h2>
+            <p>Gynaecologist</p>
+        </div>
+        <div>
+
+            <h2>Diana Joseph</h2>
+            <p>Orthodontics</p>
+        </div>
+    </div>
+    <div class="form-container">
+        <h3>Contact Us</h3>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <select>
+                <option value="">Select Department</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="gynaecology">Gynaecology</option>
+                <option value="orthodontics">Orthodontics</option>
+            </select>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2023 UNT Health Center. All rights reserved.
+    </footer>
+</body>
+</html>
